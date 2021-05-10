@@ -3,7 +3,7 @@ let OpenProcessing = {
 		return new Promise((resolve, reject) => {
 			OpenProcessing.deviceMotionAuthorized = function (data) {
 				if (data) {
-					resolve(data);
+					resolve();
 				} else {
 					reject();
 				}
